@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>泓医血压</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <link rel="stylesheet" href="./css/three.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <style>
+        .box {
+            width: 100%;
+            height: 219px;
+            padding-top: 273px;
+        }
+
+        /* 以下是每个模块的样式 */
+        .rotation-item span {
+            position: absolute;
+            z-index: 10;
+        }
+
+        .rotation-animat {
+            background-color: #FFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 头部tab -->
+    <div class="header_box">
+        <div class="logo_box"><img src="./img/logo.png" alt=""></div>
+        <div>
+            <ul>
+                <li>首页</li>
+                <li>走进泓瑞祥</li>
+                <li>新闻动态</li>
+                <li>产品与应用</li>
+                <li>产业介绍</li>
+                <li>科研创新</li>
+                <li>招商合作</li>
+            </ul>
+        </div>
+    </div>
+    <!-- 竖 -->
+    <div class="swiper-container out_swiper">
+        <div class="swiper-wrapper">
+            <!-- 第一屏 -->
+            <div class="swiper-slide">
+                <div class="swiper-container banner_swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <video autoplay="autoplay" loop="loop" muted="" id="video">
+                                <source src="./video/vd1.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="swiper-slide">
+                            <video autoplay="autoplay" loop="loop" muted="" id="video">
+                                <source src="./video/vd2.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="swiper-slide">
+                            <video autoplay="autoplay" loop="loop" muted="" id="video">
+                                <source src="./video/vd3.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination swiper-pagination-v"></div>
+                </div>
+            </div>
+            <!-- 第二屏 -->
+            <div class="swiper-slide bg_two">
+                <div class="info_box">
+                    <div class="title">
+                        <img src="./img/er/zh11.png" alt="">
+                    </div>
+                    <ul class="two_ul">
+                        <li data-index="0" class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                            swiper-animate-delay="0.3s">
+                            <a href="#">
+                                <img src="./img/er/zh110.png" alt="">
+                            </a>
+                        </li>
+                        <li data-index="1" class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                            swiper-animate-delay="0.4s">
+                            <a href="#">
+                                <img src="./img/er/zh13.png" alt="">
+                            </a>
+                        </li>
+                        <li data-index="2" class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                            swiper-animate-delay="0.5s">
+                            <a href="#">
+                                <img src="./img/er/zh14.png" alt="">
+                            </a>
+                        </li>
+                        <li data-index="3" class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                            swiper-animate-delay="0.6s">
+                            <a href="#">
+                                <img src="./img/er/zh15.png" alt="">
+                            </a>
+                        </li>
+                        <li data-index="4" class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                            swiper-animate-delay="0.7s">
+                            <a href="#">
+                                <img src="./img/er/zh16.png" alt="">
+                            </a>
+                        </li>
+                        <li data-index="5" class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                            swiper-animate-delay="0.8s">
+                            <a href="#">
+                                <img src="./img/er/zh17.png" alt="">
+                            </a>
+                        </li>
+                        <li data-index="6" class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                            swiper-animate-delay="0.9s">
+                            <a href="#">
+                                <img src="./img/er/zh18.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 第三屏 -->
+            <div class="swiper-slide bg_three">
+                <div class="info_box">
+                    <div class="title ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                        swiper-animate-delay="0.3s">
+                        <img src="./img/three/zh19.png" alt="">
+                    </div>
+                    <ul class="three_box ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                        swiper-animate-delay="0.8s">
+                        <li>
+                            <a href="#">
+                                <div class="time_box">
+                                    <p class="year">2020</p>
+                                    <p>06-08</p>
+                                </div>
+                                <div class="top_text">关爱员工健康，人人享有福利——2020新开源员工体检活动圆满结束</div>
+                                <div class="text_info">关爱员工健康，人人享有福利——2020新开源员工体检活动圆满...</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="time_box">
+                                    <p class="year">2020</p>
+                                    <p>06-08</p>
+                                </div>
+                                <div class="top_text">关爱员工健康，人人享有福利——2020新开源员工体检活动圆满结束</div>
+                                <div class="text_info">关爱员工健康，人人享有福利——2020新开源员工体检活动圆满...</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="time_box">
+                                    <p class="year">2020</p>
+                                    <p>06-08</p>
+                                </div>
+                                <div class="top_text">关爱员工健康，人人享有福利——2020新开源员工体检活动圆满结束</div>
+                                <div class="text_info">关爱员工健康，人人享有福利——2020新开源员工体检活动圆满...</div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="more_btn ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                        swiper-animate-delay="1s">READ MORE</div>
+                </div>
+            </div>
+            <!-- 第四屏 -->
+            <div class="swiper-slide bg_four">
+                <div></div>
+                <div>
+                    <div class="box">
+                        <div class="circleCenter" id="circlecenter">
+                            <div class="bgBox">
+                                <img src="./img/bg/bg1.png" />
+                            </div>
+                            <div class='rotation-turn'>
+                                <div class='rotation-item'>
+                                    <div class="rotation-animat">
+                                        <div class="four_type">
+                                            <img src="./img/four/bg1.jpg" />
+                                        </div>
+                                        <p>制药类</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='rotation-turn'>
+                                <div class='rotation-item'>
+                                    <div class="rotation-animat">
+                                        <div class="four_type">
+                                            <img src="./img/four/bg2.jpg" />
+                                        </div>
+                                        <p>服务类</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='rotation-turn'>
+                                <div class='rotation-item'>
+                                    <div class="rotation-animat">
+                                        <div class="four_type">
+                                            <img src="./img/four/bg3.jpg" />
+                                        </div>
+                                        <p>试剂类</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='rotation-turn'>
+                                <div class='rotation-item'>
+                                    <div class="rotation-animat">
+                                        <div class="four_type">
+                                            <img src="./img/four/bg4.jpg" />
+                                        </div>
+                                        <p>仪器类</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 第五屏 -->
+            <div class="swiper-slide bg_five">
+                <div class="title ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                    swiper-animate-delay="0.3s">
+                    <img src="./img/five/zh21.png" alt="">
+                </div>
+                <div class="swiper-container industry_swiper ani" swiper-animate-effect="fadeInUp"
+                    swiper-animate-duration="1s" swiper-animate-delay="0.8s">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="industry_item">
+                                <div class="img_box"><img src="./img/five/fWwYXwn5T56W9HeIu-rIyw.jpg_104xa.jpg" alt="">
+                                </div>
+                                <div class="industry_text">
+                                    <p>长沙三济生物科技有限公司</p>
+                                    <div>
+                                        长沙三济生物科技有限公司成立于2010年，注册资金5000万，总资产10800万，是新开源医疗集团(股票代码300109)旗下，国内唯一一家帮助医院组建精准医学基因检测项目综合服务平台(院内分子诊断/精准医疗实验室)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="industry_item">
+                                <div class="img_box"><img src="./img/five/fWwYXwn5T56W9HeIu-rIyw.jpg_104xa.jpg" alt="">
+                                </div>
+                                <div class="industry_text">
+                                    <p>长沙三济生物科技有限公司</p>
+                                    <div>
+                                        长沙三济生物科技有限公司成立于2010年，注册资金5000万，总资产10800万，是新开源医疗集团(股票代码300109)旗下，国内唯一一家帮助医院组建精准医学基因检测项目综合服务平台(院内分子诊断/精准医疗实验室)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="industry_item">
+                                <div class="img_box"><img src="./img/five/fWwYXwn5T56W9HeIu-rIyw.jpg_104xa.jpg" alt="">
+                                </div>
+                                <div class="industry_text">
+                                    <p>长沙三济生物科技有限公司</p>
+                                    <div>
+                                        长沙三济生物科技有限公司成立于2010年，注册资金5000万，总资产10800万，是新开源医疗集团(股票代码300109)旗下，国内唯一一家帮助医院组建精准医学基因检测项目综合服务平台(院内分子诊断/精准医疗实验室)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="industry_item">
+                                <div class="img_box"><img src="./img/five/fWwYXwn5T56W9HeIu-rIyw.jpg_104xa.jpg" alt="">
+                                </div>
+                                <div class="industry_text">
+                                    <p>长沙三济生物科技有限公司</p>
+                                    <div>
+                                        长沙三济生物科技有限公司成立于2010年，注册资金5000万，总资产10800万，是新开源医疗集团(股票代码300109)旗下，国内唯一一家帮助医院组建精准医学基因检测项目综合服务平台(院内分子诊断/精准医疗实验室)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="industry_item">
+                                <div class="img_box"><img src="./img/five/fWwYXwn5T56W9HeIu-rIyw.jpg_104xa.jpg" alt="">
+                                </div>
+                                <div class="industry_text">
+                                    <p>长沙三济生物科技有限公司</p>
+                                    <div>
+                                        长沙三济生物科技有限公司成立于2010年，注册资金5000万，总资产10800万，是新开源医疗集团(股票代码300109)旗下，国内唯一一家帮助医院组建精准医学基因检测项目综合服务平台(院内分子诊断/精准医疗实验室)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                    swiper-animate-delay="0.8s"></div>
+                <div class="swiper-button-prev ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                    swiper-animate-delay="0.8s"></div>
+                <div class="btn_more ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                    swiper-animate-delay="1s">READ MORE</div>
+            </div>
+            <!-- 第六屏 -->
+            <div class="swiper-slide  bg_six">
+                <div class="title ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                    swiper-animate-delay="0.3s">
+                    <img src="./img/five/zh21.png" alt="">
+                </div>
+                <div class="swiper-container industry_swiper ani" swiper-animate-effect="fadeInUp"
+                    swiper-animate-duration="1s" swiper-animate-delay="0.8s">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="industry_item">
+                                <div class="img_box"><img src="./img/five/fWwYXwn5T56W9HeIu-rIyw.jpg_104xa.jpg" alt="">
+                                </div>
+                                <div class="industry_text">
+                                    <p>长沙三济生物科技有限公司</p>
+                                    <div>
+                                        长沙三济生物科技有限公司成立于2010年，注册资金5000万，总资产10800万，是新开源医疗集团(股票代码300109)旗下，国内唯一一家帮助医院组建精准医学基因检测项目综合服务平台(院内分子诊断/精准医疗实验室)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="industry_item">
+                                <div class="img_box"><img src="./img/five/fWwYXwn5T56W9HeIu-rIyw.jpg_104xa.jpg" alt="">
+                                </div>
+                                <div class="industry_text">
+                                    <p>长沙三济生物科技有限公司</p>
+                                    <div>
+                                        长沙三济生物科技有限公司成立于2010年，注册资金5000万，总资产10800万，是新开源医疗集团(股票代码300109)旗下，国内唯一一家帮助医院组建精准医学基因检测项目综合服务平台(院内分子诊断/精准医疗实验室)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="industry_item">
+                                <div class="img_box"><img src="./img/five/fWwYXwn5T56W9HeIu-rIyw.jpg_104xa.jpg" alt="">
+                                </div>
+                                <div class="industry_text">
+                                    <p>长沙三济生物科技有限公司</p>
+                                    <div>
+                                        长沙三济生物科技有限公司成立于2010年，注册资金5000万，总资产10800万，是新开源医疗集团(股票代码300109)旗下，国内唯一一家帮助医院组建精准医学基因检测项目综合服务平台(院内分子诊断/精准医疗实验室)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="industry_item">
+                                <div class="img_box"><img src="./img/five/fWwYXwn5T56W9HeIu-rIyw.jpg_104xa.jpg" alt="">
+                                </div>
+                                <div class="industry_text">
+                                    <p>长沙三济生物科技有限公司</p>
+                                    <div>
+                                        长沙三济生物科技有限公司成立于2010年，注册资金5000万，总资产10800万，是新开源医疗集团(股票代码300109)旗下，国内唯一一家帮助医院组建精准医学基因检测项目综合服务平台(院内分子诊断/精准医疗实验室)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="industry_item">
+                                <div class="img_box"><img src="./img/five/fWwYXwn5T56W9HeIu-rIyw.jpg_104xa.jpg" alt="">
+                                </div>
+                                <div class="industry_text">
+                                    <p>长沙三济生物科技有限公司</p>
+                                    <div>
+                                        长沙三济生物科技有限公司成立于2010年，注册资金5000万，总资产10800万，是新开源医疗集团(股票代码300109)旗下，国内唯一一家帮助医院组建精准医学基因检测项目综合服务平台(院内分子诊断/精准医疗实验室)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Add Arrows -->
+                <div class="btn_more ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                    swiper-animate-delay="1s">READ MORE</div>
+            </div>
+            <!-- 第七屏 -->
+            <div class="swiper-slide bg_two bg_seven">
+                <div class="info_box ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                    swiper-animate-delay="0.3s">
+                    <div class="title">
+                        <img src="./img/er/zh11.png" alt="">
+                    </div>
+                    <ul class="seven_ul">
+                        <li data-index="0" class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                            swiper-animate-delay="0.3s">
+                            <a href="#">
+                                <img src="./img/seven/zh1.png" alt="">
+                            </a>
+                        </li>
+                        <li data-index="1" class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                            swiper-animate-delay="0.5s">
+                            <a href="#">
+                                <img src="./img/seven/zh2.png" alt="">
+                            </a>
+                        </li>
+                        <li data-index="2" class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                            swiper-animate-delay="0.8s">
+                            <a href="#">
+                                <img src="./img/seven/zh3.png" alt="">
+                            </a>
+                        </li>
+                        <li data-index="3" class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                            swiper-animate-delay="1.2s">
+                            <a href="#">
+                                <img src="./img/seven/zh4.png" alt="">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <!-- 第八屏 -->
+            <div class="swiper-slide  bg_eight">
+                <div class="info_box">
+                    <div class="title ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                        swiper-animate-delay="0.3s">
+                        <img src="./img/er/zh11.png" alt="">
+                    </div>
+                    <div>
+                        <div class="title_box">
+                            <div class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                                swiper-animate-delay="0.3s">在线留言</div>
+                            <div class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                                swiper-animate-delay="0.4s">集团总部</div>
+                            <div class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                                swiper-animate-delay="0.5s">子公司地址</div>
+                        </div>
+                        <div class="eight_info">
+                            <div class="eight_item left_box ani" swiper-animate-effect="fadeInLeft"
+                                swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+                                <div class="eight_title">APP</div>
+                                <div class="qrcode_box">
+                                    <div class="qrcode">
+                                        <img src="./img/seven/zh1.png" alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="eight_item right_box ani" swiper-animate-effect="fadeInRight"
+                                swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+                                <div class="eight_title">集团注册地：</div>
+                                <div>
+                                    <div>电话：+86-391-8696320</div>
+                                    <div>电话：+86-391-8696320</div>
+                                    <div>电话：+86-391-8696320</div>
+                                    <div>电话：+86-391-8696320</div>
+                                    <div>电话：+86-391-8696320</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="information">
+                        <p>版权所属©博爱新开源医疗科技集团股份有限公司</p>
+                        <p>京ICP备12456677号</p>
+                        <p>网站建设：集团信息技术中心</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-h"></div>
+    </div>
+</body>
+<script src="./js/jquery_3.4.1.js"></script>
+<script src="./js/swiper.animate1.0.3.min.js"></script>
+<script src="./js/swiper.js"></script>
+<script src="./js/three.js"></script>
+<script>
+    var outSwiper = new Swiper('.out_swiper', {
+        direction: 'vertical',
+        spaceBetween: 50,
+        initialSlide: 3,
+        pagination: {
+            el: '.swiper-pagination-h',
+            clickable: true,
+        },
+        on: {
+            init: function () {
+                swiperAnimateCache(this); //隐藏动画元素 
+                swiperAnimate(this); //初始化完成开始动画
+            },
+            slideChangeTransitionEnd: function () {
+                swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+                //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
+            }
+        }
+    });
+    var bannerSwiper = new Swiper('.banner_swiper', {
+        spaceBetween: 50,
+        pagination: {
+            el: '.swiper-pagination-v',
+            clickable: true,
+        },
+    });
+
+    var industrySwiper = new Swiper('.industry_swiper', {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+        spaceBetween: 30,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'fraction',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+
+    // 切换第二频tab图片
+    let twoTabArr = ["./img/er/z110.png", "./img/er/z13.png", "./img/er/z14.png", "./img/er/z15.png", "./img/er/z16.png", "./img/er/z17.png", "./img/er/z18.png"];
+    let twoTabArrOld = ["./img/er/zh110.png", "./img/er/zh13.png", "./img/er/zh14.png", "./img/er/zh15.png", "./img/er/zh16.png", "./img/er/zh17.png", "./img/er/zh18.png"];
+    $(".two_ul").on("mouseenter", "li", function () {
+        let index = $(this).data("index");
+        $(this).find("img").attr("src", twoTabArr[index])
+    }).on("mouseleave", "li", function () {
+        let index = $(this).data("index");
+        $(this).find("img").attr("src", twoTabArrOld[index]);
+    })
+
+    // 切换第七频tab图片
+    let sevenTabArr = ["./img/seven/z1.png", "./img/seven/z2.png", "./img/seven/z3.png", "./img/seven/z4.png",];
+    let sevenTabArrOld = ["./img/seven/zh1.png", "./img/seven/zh2.png", "./img/seven/zh3.png", "./img/seven/zh4.png"];
+    $(".seven_ul").on("mouseenter", "li", function () {
+        let index = $(this).data("index");
+        $(this).find("img").attr("src", sevenTabArr[index])
+    }).on("mouseleave", "li", function () {
+        let index = $(this).data("index");
+        $(this).find("img").attr("src", sevenTabArrOld[index]);
+    })
+
+    // 第四屏
+    var option = {
+        radius: 200,      //大圆半径
+        focusindex: 3,  //焦点图位置
+        speed: 800,       //旋转速率，单位（毫秒）
+        callback: function (ele, index) {   //this指向此rotation对象
+            // console.log($(ele).css("transform").replace(/[^0-9\-,]/g,''));
+            console.log(ele.style.transform);
+            let eleStyle=ele.style.transform;
+            $(".bgBox").css({
+                "transform":eleStyle
+            })
+        }
+    }
+    var rotation = new Rotation("circlecenter", option);
+
+
+
+</script>
+
+</html>

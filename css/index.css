@@ -1,0 +1,346 @@
+.header_box{
+    max-width: 1400px;
+    margin:0 auto;
+}
+.logo_box{
+    width:4rem;
+    height: 4rem;
+    
+}
+.header_box{
+    width: 100%;
+    height: 4rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.out_swiper,.swiper-wrapper{
+    height: calc(100vh - 4rem);
+}
+/* 第二 */
+.bg_two{
+    background: url(../img/bg/zh2.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info_box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    width: 19rem;
+    height: 6.25rem;
+    margin-bottom: 2rem;
+}
+.info_box ul{
+    display: flex;
+}
+
+.two_ul li{
+    width: 11rem;
+    height: 11rem;
+    margin:0 0.5rem;
+}
+
+/* 第三 */
+.bg_three{
+    background: url(../img/bg/zh3.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three_box{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.three_box li{
+    width: 44%;
+    background: #ffffff;
+    padding:1rem 2rem;
+    margin:1.5rem 0;
+    position: relative;
+    height: 8.5rem;
+}
+.three_box .top_text{
+    margin-left: 5.2rem;
+    color: rgba(29, 75, 144, 1);
+    white-space: nowrap;
+    font-size: 1rem;
+    padding-bottom:1.6rem;
+    
+}
+.three_box .text_info{
+    font-size: 0.9rem;
+    color: rgba(153, 153, 153, 1);
+    line-height: 20px;
+}
+.time_box{
+    width:4.2rem;
+    height: 5rem;
+    background: #f5a300;
+    position: absolute;
+    top:-1.8rem;
+}
+.time_box p:first-child{
+    font-size: 1.5rem;
+    color: #fff;
+    display: block;
+    padding-top: 0.75rem;
+    padding-bottom: 0.2rem;
+    text-align: center;
+}
+.time_box p:last-child{
+    text-align: right;
+    font-size: 14px;
+    padding-right: 5px;
+    color: rgba(153, 153, 153, 1);
+}
+
+.more_btn{
+    width: 16rem;
+    height: 3.25rem;
+    background: #fff;
+    border-radius: 8rem;
+    text-align: center;
+    line-height: 3.25rem;
+    color: #826E45;
+    margin:1rem 0;
+}
+.three_box li:hover{
+    color:#fff;
+    background: rgba(29, 75, 144, 1);
+}
+.three_box li:hover .top_text,.three_box li:hover .text_info{
+    color:#fff;
+}
+.three_box li:hover .time_box{
+    background: #ffffff;
+}
+.three_box li:hover .year{
+    color: #383838;
+}
+/* 第四屏 */
+.bg_four{
+    background: url(../img/bg/zh5.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rotation-animat{
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.four_type{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    top:0;
+    z-index: 1;
+}
+.four_type img{
+    object-fit: cover;
+}
+.rotation-animat p{
+    position: relative;
+    z-index: 2;
+    color: rgba(29, 75, 144, 1);
+}
+.bgBox{
+    transition: all 1s;
+}
+/* 第五屏 */
+.bg_five{
+    background: url(../img/bg/zh5.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.industry_swiper{
+    width:70%;
+    height: 18rem;
+    position: relative;
+}
+.industry_swiper .swiper-wrapper{
+    height: 100%;
+}
+.industry_swiper  .swiper-slide{
+    display: flex;
+    align-items: flex-end;
+}
+
+.bg_five .swiper-button-next{
+    position: absolute;
+    right:7rem;
+    top:55%;
+}
+
+.bg_five  .swiper-button-prev{
+    left:7rem;
+    top:55%;
+}
+
+.industry_item .img_box{
+    width:6.25rem;
+    height: 6.25rem;
+    border-radius: 50%;
+    position: absolute;
+    top:-4rem;
+    left:35%;
+    overflow: hidden;
+}
+.industry_text p{
+    margin: 0;
+    min-width: 37px;
+    padding: 0;
+    color: rgba(30,30,30,1);
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    padding:0.5rem 0;
+}
+.industry_text p:hover{
+    color: rgba(87,177,173,1);
+}
+.industry_text>div{
+    color: rgba(102,102,102,1);
+}
+.industry_item{
+    background-color: #FFF;
+    position: relative;
+    padding:2rem 1rem 1rem;
+    border-radius: 0.5rem;
+    
+}
+.btn_more{
+    background: #f5a300;
+    width:11rem;
+    height: 2rem;
+    border-radius: 1rem;
+    margin:2rem 0;
+    text-align: center;
+    line-height: 2rem;
+    color:#FFF;
+    cursor: pointer;
+}
+/* 第六屏 */
+.bg_six{
+    background: url(../img/bg/bg3.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* 第七频 */
+.bg_seven{
+    background: url(../img/bg/zh6.jpg) no-repeat;
+    background-size: cover;
+}
+.seven_ul li{
+    width: 11rem;
+    height: 11rem;
+    margin:0 3rem;
+}
+/* 第八屏 */
+.bg_eight{
+    background: url(../img/bg/zh7.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title_box{
+    display: flex;
+    justify-content: center;
+}
+.title_box>div{
+    width:9.2rem;
+    height: 2.7rem;
+    background-color: #EEE;
+    color:rgba(29, 75, 144, 1);
+    cursor: pointer;
+    text-align: center;
+    line-height: 2.7rem;
+}
+.title_box>div:first-child{
+    background-color: #FFF;
+}
+.title_box>div:last-child{
+    background-color: #f5a300;
+    color:#FFF;
+}
+
+.eight_info{
+    display: flex;
+    
+}
+.eight_item{
+    width:35rem;
+    height: 16rem;
+    padding:2rem;
+    box-sizing: border-box;
+}
+.left_box{
+    width:40rem;
+    background-color: rgba(2, 113, 184, 1);
+    color:#FFF;
+}
+.right_box{
+    background-color: #FFF;
+    line-height: 1.8rem;
+}
+.eight_item .eight_title{
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+.eight_item .eight_title::after{
+    content: "";
+    display: block;
+    width:4rem;
+    height: 0.1rem;
+    background-color: rgba(2, 113, 184, 1);
+    margin:0.5rem 0;
+}
+.eight_item.left_box .eight_title::after{
+    background-color: #FFF;
+}
+.qrcode_box{
+    display: flex;
+    justify-content: flex-end;
+}
+.qrcode{
+    width:6rem;
+    height: 6rem;
+}
+
+.information{
+    color: #A9A9A9;
+    display: flex;
+    margin-top:3rem;
+}
+.information p{
+    margin:0 0.5rem;
+}
