@@ -36,7 +36,7 @@
     <!-- 头部tab -->
     <div class="header_box">
         <div class="logo_box"><img src="./img/logo.png" alt=""></div>
-        <div>
+        <div class="top_tab">
             <ul>
                 <li>首页</li>
                 <li>走进泓瑞祥</li>
@@ -543,9 +543,9 @@
         callback: function (ele, index) {   //this指向此rotation对象
             // console.log($(ele).css("transform").replace(/[^0-9\-,]/g,''));
             console.log(ele.style.transform);
-            let eleStyle=ele.style.transform;
+            let eleStyle = ele.style.transform;
             $(".bgBox").css({
-                "transform":eleStyle
+                "transform": eleStyle
             })
         }
     }

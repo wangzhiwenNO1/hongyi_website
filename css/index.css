@@ -1,11 +1,16 @@
 .header_box{
     max-width: 1400px;
     margin:0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 .logo_box{
     width:4rem;
     height: 4rem;
     
+}
+.top_tab ul{
+    display: flex;
 }
 .header_box{
     width: 100%;
